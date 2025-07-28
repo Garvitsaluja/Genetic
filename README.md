@@ -39,7 +39,7 @@ Evolution: The GA uses standard operators—tournament selection, uniform crosso
 The best chromosome found by the GA is used to build the final, compressed model. This model is then fully re-trained on the entire training dataset to maximize its accuracy before a final evaluation.
 
 Prerequisites
-Ensure you have Python 3.x installed. The required libraries can be installed via pip:
+Ensure you have Python 3.8 installed. The required libraries can be installed via pip:
 
 pip install torch torchvision
 pip install numpy
